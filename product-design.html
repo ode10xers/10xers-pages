@@ -1,0 +1,729 @@
+<!DOCTYPE html><!--  Last Published: Sun Dec 10 2023 13:26:22 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="64b767d5500e0f611f04286c" data-wf-site="627f57b87e9c38605d4677db">
+<head>
+  <meta charset="utf-8">
+  <title>10xers | Product Design</title>
+  <meta content="Expert product design for powerful mobile apps and websites. Elevate UX, embrace uniqueness, and achieve unparalleled success." name="description">
+  <meta content="10xers | Product Design" property="og:title">
+  <meta content="Expert product design for powerful mobile apps and websites. Elevate UX, embrace uniqueness, and achieve unparalleled success." property="og:description">
+  <meta content="10xers | Product Design" property="twitter:title">
+  <meta content="Expert product design for powerful mobile apps and websites. Elevate UX, embrace uniqueness, and achieve unparalleled success." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/10xers.webflow.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bc6"] {opacity:0;}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bc6"] {opacity:0;}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bc6"] {opacity:0;}}</style>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Prompt:100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic","Nunito:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic","Plus Jakarta Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+  .title-pink-large {
+    background: linear-gradient(
+      125.46deg,
+      #ffffff -2.09%,
+      #bb62f1 19.09%,
+      #ee4b60 59.1%,
+      #ffffff 107.6%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .consultation__btn {
+    box-shadow: 0px 2px 2px 0px #525154 inset, 0px 30px 25px 0px rgba(0, 0, 0, 0.50);
+  }
+  .get-notif-section {
+    background: linear-gradient(180deg, #0a0a0a 0%, rgba(19, 19, 20, 0) 100%);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+  .fancy-bg-form {
+    padding: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, purple);
+  }
+  .blue-btn {
+    background: linear-gradient(130deg, #0257FA 0%, #191BC5 100%);
+  }
+  .primary-btn {
+    background: linear-gradient(130deg, #0257FA 0%, #191BC5 100%);
+  }
+  .blue-radial {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #336eff 0%,
+      rgba(0, 0, 0, 0) 70%
+    );
+  }
+  .swiper-wrapper.is-mobile-photos-name {
+    align-items: center;
+  }
+  .nav_link {
+    position: relative;
+  }
+  .nav_link:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0.125rem;
+    bottom: 0;
+    left: 0;
+    background-color: #0a84ff;
+    transition: width 0.5s ease-out;
+  }
+  .is--khaleeji-menu-link:hover {
+    background: linear-gradient(96.95deg, #fbf6af 0%, #ffb4d7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  } 
+  .is--uberdoc-menu-link:hover {
+    background: linear-gradient(90deg, #ec597f 0%, #e4551a 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  } 
+  .is--jumlaty-menu-link:hover {
+    background: linear-gradient(98.28deg, #68d0ee 0%, #ffbdb2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  } 
+  .nav_link:hover:after {
+    width: 100%;
+  }
+  .box-title {
+    background: linear-gradient(90deg, #007CF0 0%, #00DFD8 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .study-case-hero-background {
+    background: linear-gradient(
+        133deg,
+        rgba(3, 36, 105, 0.62) 0%,
+        rgba(3, 34, 101, 0.16) 13.48%,
+        rgba(3, 34, 99, 0) 21.54%,
+        rgba(4, 28, 79, 0) 71.87%,
+        rgba(4, 27, 77, 0.15) 79.77%,
+        rgba(4, 25, 71, 0.55) 100%
+      ),
+      radial-gradient(
+        205.45% 127.9% at 111.11% 1.95%,
+        #6db9ff 0%,
+        #1962f2 37.96%,
+        #0f3ea3 70.39%,
+        #07246b 100%
+      );
+  }
+  .footer-container {
+  	background: linear-gradient(180deg, #141314 0%, rgba(29, 28, 32, 0.00) 100%);
+  }
+  .horizontal-tab__card-menu.w--current .decor-tall-slim {
+    display: block;
+  }
+</style>
+  <style>
+.product-slider {
+    cursor: grab;
+  }
+  .product-slider.active {
+    cursor: grabbing;
+    scroll-behavior: auto;
+  }
+  .product-slider::-webkit-scrollbar {
+    height: 0.208vw;
+    border-radius: 0.694vw;
+  }
+  .product-slider::-webkit-scrollbar-track {
+    background: rgba(163, 163, 163, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    /* visibility: hidden; doesn't seem to work */
+  }
+  .product-slider::-webkit-scrollbar-thumb {
+    background: #0a84ff;
+    border-radius: 0.694vw;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+  .product-slider::-webkit-scrollbar:window-inactive {
+    visibility: hidden;
+  }
+</style>
+</head>
+<body class="body">
+  <div class="navbar w-container">
+    <div data-animation="default" data-collapse="small" data-duration="600" data-easing="ease" data-easing2="ease" role="banner" class="navbar__container w-nav">
+      <a href="index.html" class="navbar__logo-container w-nav-brand"><img alt="10xers white logo" loading="lazy" src="images/Logo.png" class="_10xers-logo"></a>
+      <nav role="navigation" class="navbar__menus-container w-nav-menu">
+        <div class="parrent-menu">
+          <div class="parrent-content">
+            <a href="index.html" class="nav_link is--desktop w-nav-link">Home</a>
+          </div>
+        </div>
+        <a href="webflow.html" class="nav_link is--single w-nav-link">Webflow</a>
+        <a href="generative-ai.html" class="nav_link is--single w-nav-link">Generative AI</a>
+        <div data-w-id="5758d511-c3fb-7112-a284-106ce0e5e29b" class="navbar-block">
+          <a href="work.html" data-w-id="42673d9c-947b-2403-21e5-ad39c4f4fb3c" class="nav_link is--desktop w-nav-link">Work</a>
+          <div class="chevron"><img src="images/arrow-down-1.png" loading="lazy" data-w-id="41ae04b9-6eba-0018-69a6-05f32dd8bec8" alt="" class="chevron1-img"><img src="images/arrow-down.png" loading="lazy" data-w-id="857465cb-3717-c5f0-29cf-4c447579c0f6" alt="" class="chevron2-img"></div>
+        </div>
+        <div data-w-id="e0367bcf-e43b-910f-82d8-6de5b17d7b62" class="nav-dropdown is-mobile">
+          <a href="case-study-jumlaty.html" class="nav-link is--jumlaty-menu-link">Jumlaty</a>
+          <a href="case-study-uber-doctor.html" class="nav-link is--uberdoc-menu-link">Uber Doctor</a>
+          <a href="case-study-khaleeji.html" class="nav-link is--khaleeji-menu-link">Khaleeji</a>
+          <div class="child-menu">
+            <a href="case-study-jumlaty.html" class="child_nav_link is--jumlaty-menu-link w-nav-link">Jumlaty</a>
+            <a href="case-study-uber-doctor.html" class="child_nav_link is--uberdoc-menu-link w-nav-link">Uber Doctor</a>
+            <a href="case-study-khaleeji.html" class="child_nav_link is--khaleeji-menu-link w-nav-link">Khaleeji</a>
+          </div>
+        </div>
+        <div data-w-id="707db8a1-4684-3451-883f-3aa5499b3ff4" class="navbar-block is--have-top">
+          <a href="https://www.10xers.co#service-section" data-w-id="707db8a1-4684-3451-883f-3aa5499b3ff5" class="nav_link is--desktop w-nav-link">Services</a>
+          <div class="chevron"><img src="images/arrow-down-1.png" loading="lazy" data-w-id="707db8a1-4684-3451-883f-3aa5499b3ff8" alt="" class="chevron1-img"><img src="images/arrow-down.png" loading="lazy" data-w-id="707db8a1-4684-3451-883f-3aa5499b3ff9" alt="" class="chevron2-img"></div>
+        </div>
+        <div data-w-id="da5a048d-5496-bf8c-99ff-6306b919328c" class="nav-dropdown is--2-mobile">
+          <a href="product-design.html" aria-current="page" class="nav-link is--dropdown w--current">Product Design</a>
+          <a href="product-development.html" class="nav-link is--dropdown">Product Development</a>
+          <div class="child-menu">
+            <a href="case-study-jumlaty.html" class="child_nav_link is--jumlaty-menu-link w-nav-link">Jumlaty</a>
+            <a href="case-study-uber-doctor.html" class="child_nav_link is--uberdoc-menu-link w-nav-link">Uber Doctor</a>
+            <a href="case-study-khaleeji.html" class="child_nav_link is--khaleeji-menu-link w-nav-link">Khaleeji</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-mobile-nav-menu w-nav-button">
+        <div class="header-mobile-nav-menu-icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <section class="hero">
+    <div data-poster-url="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-transcode.mp4,https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="backgroud-video w-background-video w-background-video-atom"><video id="74bb8820-886b-8ee7-ec93-4ca72011bace-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-transcode.mp4" data-wf-ignore="true">
+        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76a720b23ab2f2f4a00ee_product design-transcode.webm" data-wf-ignore="true">
+      </video>
+      <div class="backgroud-video__container">
+        <h1 class="hero__heading is--26-mb">Unleash your business&#x27;s potential through our Product Design services</h1>
+        <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+      </div>
+      <div class="backgroud-video__container">
+        <h1 class="hero__heading is--26-mb">Unleash your business&#x27;s potential through our Product Design services</h1>
+        <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+      </div>
+    </div>
+  </section>
+  <section class="card-stack-section is--extra-mb">
+    <div class="card-stack-section__wrapper">
+      <div class="card-stack-section__content">
+        <div class="card-stack">
+          <div class="card-stack__wrapper">
+            <div class="card-stack__list">
+              <div data-w-id="9e75e147-4798-29c1-7bdc-ba11414d7870" class="card-stack__list-wrapper is--normal">
+                <div class="gradient-blue-green is--2vwmt">
+                  <h2 class="heading-semi-large-card-title is--70vwmb">Our Product Design Services</h2>
+                </div>
+                <div class="c-card _1">
+                  <div data-w-id="9e75e147-4798-29c1-7bdc-ba11414d7874" class="satck-card-item">
+                    <div class="stack-card__content-info is--have-pl">
+                      <h3 class="stack-card__content-title">Mobile &amp; Web Design</h3>
+                      <div class="p-normal-500-x">Embrace the startup journey, where solutions are elusive and success is uncertain. Design becomes the driving force, showcasing functionality, aesthetics, and paving the way for future growth.</div>
+                      <div class="check-list is--service-tab">
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h4 class="check-list__text-service">Optimized for Web/IOS/Android</h4>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h4 class="check-list__text-service">Research based UX Design</h4>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h4 class="check-list__text-service">From concept to launch</h4>
+                        </div>
+                      </div>
+                      <a href="#free-consultation" class="primary-btn is-desktop w-button">Start Your Project</a>
+                    </div>
+                    <div data-poster-url="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-transcode.mp4,https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="9e75e147-4798-29c1-7bdc-ba11414d788a" class="stack-card__content-media w-background-video w-background-video-atom"><video id="9e75e147-4798-29c1-7bdc-ba11414d788a-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-transcode.mp4" data-wf-ignore="true">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b76f1a7592131c5cf37f43_Untitled design-transcode.webm" data-wf-ignore="true">
+                      </video></div>
+                    <div class="stack-card__card-footer">
+                      <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-card _2">
+                  <div data-w-id="9e75e147-4798-29c1-7bdc-ba11414d7891" class="satck-card-item">
+                    <div class="stack-card__content-info is--have-pl">
+                      <h2 class="stack-card__content-title">Clickable MVP Design</h2>
+                      <div class="p-normal-500-x">Capture attention and impress stakeholders with stunning digital product interfaces, tailor-made for pre-production showcasing. Our meticulously designed assets, provide a  preview of MVP.</div>
+                      <div class="check-list is--service-tab">
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Secure Funding</h1>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Clickable Prototype</h1>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Validate conceptual idea</h1>
+                        </div>
+                      </div>
+                      <a href="#free-consultation" class="primary-btn is-desktop w-button">Start Your Project</a>
+                    </div>
+                    <div data-poster-url="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-transcode.mp4,https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="9e75e147-4798-29c1-7bdc-ba11414d78a7" class="stack-card__content-media w-background-video w-background-video-atom"><video id="9e75e147-4798-29c1-7bdc-ba11414d78a7-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-transcode.mp4" data-wf-ignore="true">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b777bd0b23ab2f2f5b5fa5_Untitled design f-transcode.webm" data-wf-ignore="true">
+                      </video></div>
+                    <div class="stack-card__card-footer">
+                      <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-card _3">
+                  <div data-w-id="9e75e147-4798-29c1-7bdc-ba11414d78ad" class="satck-card-item">
+                    <div class="stack-card__content-info is--have-pl">
+                      <h2 class="stack-card__content-title">Brand Identity and Strategy</h2>
+                      <div class="p-normal-500-x">Unleash your brand&#x27;s unique voice with our exceptional branding and identity design services. We&#x27;ll take your audience on a captivating journey from first impressions to everlasting trust.</div>
+                      <div class="check-list is--service-tab">
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Brand Strategy Workshop</h1>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Brand Visual Identity</h1>
+                        </div>
+                        <div class="check-list__item is--service-tab"><img alt="blue rounded check icon" height="" src="images/Check-icon.png" loading="lazy" class="check-list__icon is--service-tab">
+                          <h1 class="check-list__text-service">Brand Guidelines &amp; documentation</h1>
+                        </div>
+                      </div>
+                      <a href="#free-consultation" class="primary-btn is-desktop w-button">Start Your Project</a>
+                    </div>
+                    <div data-poster-url="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-transcode.mp4,https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="stack-card__content-media w-background-video w-background-video-atom"><video id="9e75e147-4798-29c1-7bdc-ba11414d78c3-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-transcode.mp4" data-wf-ignore="true">
+                        <source src="https://uploads-ssl.webflow.com/627f57b87e9c38605d4677db/64b778ebcb0b1ad4dd043763_Brand design-transcode.webm" data-wf-ignore="true">
+                      </video></div>
+                    <div class="stack-card__card-footer">
+                      <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-card _4">
+                  <div data-w-id="e65b8845-297c-04aa-742d-55233e811c66" class="satck-card-item">
+                    <div class="stack-card__content-info is--have-pl">
+                      <div class="gradient-green">
+                        <h2 class="stack-card__content-title">Clickable MVP Design</h2>
+                      </div>
+                      <div class="p-normal-500-x">Capture attention and impress stakeholders with stunning digital product interfaces, tailor-made for pre-production showcasing. Our meticulously designed assets, provide a  preview of MVP.</div>
+                      <a href="#free-consultation" class="primary-btn is-desktop w-button">Start Your Project</a>
+                    </div>
+                    <div class="stack-card__card-footer">
+                      <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="roadmap" class="roadmap">
+    <div class="roadmap__container">
+      <div class="roadmap__content">
+        <div class="roadmap__head">
+          <h2 data-w-id="7720bceb-30bd-3749-52fd-f092b8d98b88" style="opacity:0" class="heading-large is--small-mb">Our  Design  Process</h2>
+          <div class="roadmap__subtitle">Discover the winning formula for crafting exceptional mobile apps and websites through our adaptable and battle-tested creative process. With a relentless focus on user engagement, we delve deep into each case, meticulously researching and solving design challenges to create successful products.</div>
+        </div>
+        <div class="roadmap__wrap">
+          <div class="roadmap__frame">
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98b8e" style="opacity:0" class="roadmap__info is--add-margin">
+              <div class="roadmap__number">
+                <div class="roadmap__num is--white">1</div>
+              </div>
+              <div class="roadmap__tittle">
+                <div class="t-40-500-48 t-40-500-48_adaptiv">Research &amp; Discovery of Project Design Brief</div>
+              </div>
+              <div class="t-18-400-25 t-18-400-25_adaptiv">Harness the power of extensive research and design methodologies to create unparalleled, seamless experiences that captivate and engage users</div>
+            </div>
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98b97" style="opacity:0" class="roadmap__video-wrap is--big"><img src="images/div.smart-element-frame-9.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 38vw, 39vw" srcset="images/div.smart-element-frame-9-p-500.png 500w, images/div.smart-element-frame-9-p-800.png 800w, images/div.smart-element-frame-9.png 814w" alt="women explaining something on the white paper" class="readmap__img is--fill"></div>
+          </div>
+          <div class="f-mob-wrap"><img src="images/image-1.png" alt="F-stick" class="roadmap-f-stick">
+            <div class="roadmap-v-line"></div>
+          </div>
+          <div class="roadmap__frame roadmap-frame_even">
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98b9d" style="opacity:0" class="roadmap__video-wrap is--big"><img src="images/div.smart-element-frame-13.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 38vw, 39vw" srcset="images/div.smart-element-frame-13-p-500.png 500w, images/div.smart-element-frame-13-p-800.png 800w, images/div.smart-element-frame-13.png 868w" alt="the red clothes women explaining the app flow to the team" class="readmap__img is--fill"></div>
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98b9f" style="opacity:0" class="roadmap__info">
+              <div class="roadmap__number">
+                <div class="roadmap__num is--white">2</div>
+              </div>
+              <div class="roadmap__tittle">
+                <div class="t-40-500-48 t-40-500-48_adaptiv">UX Design Ideation, Visual Design  and Prototype</div>
+              </div>
+              <div class="t-18-400-25 t-18-400-25_adaptiv">From the  research data and a meticulous process of multiple iterations, adjustments, and refinements, we proudly unveil a visually captivating prototype to solve user problems.</div>
+            </div>
+          </div>
+          <div class="f-mob-wrap"><img src="images/image-1.png" alt="F-stick" class="roadmap-f-stick">
+            <div class="roadmap-v-line"></div>
+          </div>
+          <div class="roadmap__frame">
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bac" style="opacity:0" class="roadmap__info">
+              <div class="roadmap__number">
+                <div class="roadmap__num is--white">3</div>
+              </div>
+              <div class="roadmap__tittle">
+                <div class="t-40-500-48 t-40-500-48_adaptiv">Client Feedback &amp; Improvements <br>to design</div>
+              </div>
+              <div class="t-18-400-25 t-18-400-25_adaptiv">Maximize your success! We immerse your business goals into the interface, crafting an exceptional user experience, and embrace feedback at all stages.</div>
+            </div>
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bb5" style="opacity:0" class="roadmap__video-wrap is--big"><img src="images/div.smart-element-frame-12.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 38vw, 39vw" srcset="images/div.smart-element-frame-12-p-500.png 500w, images/div.smart-element-frame-12-p-800.png 800w, images/div.smart-element-frame-12.png 868w" alt="team focus on the monito at the meeting room" class="readmap__img is--fill"></div>
+          </div>
+          <div class="f-mob-wrap"><img src="images/image-1.png" alt="F-stick" class="roadmap-f-stick"></div>
+          <div class="roadmap__frame roadmap-frame_even">
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bba" style="opacity:0" class="roadmap__video-wrap is--big"><img src="images/div.smart-element-frame-11.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 42vw, 39vw" srcset="images/div.smart-element-frame-11-p-500.png 500w, images/div.smart-element-frame-11-p-800.png 800w, images/div.smart-element-frame-11.png 867w" alt="a man trying to make responsive app on desktop, tablet and phone" class="readmap__img is--fill"></div>
+            <div data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bbc" style="opacity:0" class="roadmap__info">
+              <div class="roadmap__number">
+                <div class="roadmap__num">4</div>
+              </div>
+              <div class="roadmap__tittle">
+                <div class="t-40-500-48 t-40-500-48_adaptiv">Handoff to product developers &amp; maintaining</div>
+              </div>
+              <div class="t-18-400-25 t-18-400-25_adaptiv">During development we are meticulous to ensure flawless UI and UX in the design. From development to launch and ongoing support, we deliver excellence.</div>
+            </div>
+          </div>
+          <div class="roadmap-stick-wrap"><img src="images/image-1.png" alt="F-stick" data-w-id="7720bceb-30bd-3749-52fd-f092b8d98bc6" class="roadmap-f-stick is--desktop">
+            <div class="roadmap-v-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section__content is--abstract-gradient-blue-bg">
+      <div class="p-44-center is--30-mb">With our expertise, we can evaluate and enhance your design projects with insightful recommendations.</div>
+      <a href="#free-consultation" class="primary-btn is--long w-button">Start Your Project</a>
+    </div>
+  </section>
+  <section class="section is--desktop">
+    <div class="section__content is--normal-bordered">
+      <h2 class="heading-large is--smaller">Discover the impact of design</h2>
+      <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="horizontal-tabs is--50-mt w-tabs">
+        <div class="horizontal-tabs__content w-tab-content">
+          <div data-w-tab="Tab 1" class="horizontal-tabs__pane w-tab-pane w--tab-active">
+            <div class="horizontal-tabs__inner"><img sizes="(max-width: 479px) 100vw, 35vw" srcset="images/span-p-500.png 500w, images/span.png 505w" src="images/span.png" loading="lazy" alt="side view man holding a paper" class="horizontal-tabs__img"></div>
+          </div>
+          <div data-w-tab="Tab 2" class="service-tabs__pane w-tab-pane">
+            <div class="horizontal-tabs__inner"><img sizes="(max-width: 479px) 100vw, 35vw" srcset="images/span-1-p-500.png 500w, images/span-1.png 504w" src="images/span-1.png" loading="lazy" alt="high angle designer holding a smartphone" class="horizontal-tabs__img"></div>
+          </div>
+          <div data-w-tab="Tab 3" class="service-tabs__pane w-tab-pane">
+            <div class="horizontal-tabs__inner"><img sizes="(max-width: 479px) 100vw, 35vw" srcset="images/span-2-p-500.png 500w, images/span-2.png 504w" src="images/span-2.png" loading="lazy" alt="woman holding iphone 14 pro" class="horizontal-tabs__img"></div>
+          </div>
+        </div>
+        <div class="horizontal-tabs__menu w-tab-menu">
+          <a data-w-tab="Tab 1" data-w-id="148b9749-532b-4fb9-6b3b-3fae17ad2069" class="horizontal-tab__card-menu w-inline-block w-tab-link w--current">
+            <div class="decor-tall-slim is--small"></div>
+            <div class="horizontal-tabs__content-container">
+              <div class="horizontal-tabs__menu-title">Creative Process To Identify Solution</div>
+              <p class="horizontal-tabs__card-menu-dsc is--24-mt">Ignite your path to success with our proven process for designing, building, and launching impactful mobile apps and websites. Progress assured through meticulous attention to detail &amp; customer understanding.</p>
+            </div>
+          </a>
+          <a data-w-tab="Tab 2" data-w-id="148b9749-532b-4fb9-6b3b-3fae17ad206c" class="horizontal-tab__card-menu w-inline-block w-tab-link">
+            <div class="decor-tall-slim is--small"></div>
+            <div class="horizontal-tabs__content-container">
+              <div class="horizontal-tabs__menu-title">User-Centered Experience Design</div>
+              <p class="horizontal-tabs__card-menu-dsc is--24-mt">Design humanizes tech. Our expertise in delivering impactful solutions with user-friendly interfaces, seamless interactions, functional capabilities, and captivating visual design.</p>
+            </div>
+          </a>
+          <a data-w-tab="Tab 3" data-w-id="148b9749-532b-4fb9-6b3b-3fae17ad206f" class="horizontal-tab__card-menu w-inline-block w-tab-link">
+            <div class="decor-tall-slim is--small"></div>
+            <div class="horizontal-tabs__content-container">
+              <div class="horizontal-tabs__menu-title">Create Custom Mobile &amp; Web Design</div>
+              <p class="horizontal-tabs__card-menu-dsc is--24-mt">Transform your app or website into a powerful marketing asset that authentically reflects your business. Embrace uniqueness, elevate user experience, and seize control of your success with our professional product design services.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="design-impact">
+        <div class="design-impact__card">
+          <div class="design-impact__card-content">
+            <h2 class="heading-medium">Creative Process To Identify Solution</h2>
+            <p class="p-normal-500">Ignite your path to success with our proven process for designing, building, and launching impactful mobile apps and websites. Progress assured through meticulous attention to detail &amp; customer understanding.</p>
+          </div>
+          <div class="design-impact__img-container"><img src="images/img12334342.png" loading="lazy" alt="high angle designer holding a smartphone" class="design-impact__img"></div>
+        </div>
+        <div class="design-impact__card">
+          <div class="design-impact__card-content">
+            <h2 class="heading-medium">User-Centered Experience Design</h2>
+            <p class="p-normal-500">Design humanizes tech. Our expertise in delivering impactful solutions with user-friendly interfaces, seamless interactions, functional capabilities, and captivating visual design.</p>
+          </div>
+          <div class="design-impact__img-container"><img src="images/img12334342.png" loading="lazy" alt="high angle designer holding a smartphone" class="design-impact__img"></div>
+        </div>
+        <div class="design-impact__card">
+          <div class="design-impact__card-content">
+            <h2 class="heading-medium">Create Custom Mobile &amp; Web Design</h2>
+            <p class="p-normal-500">Transform your app or website into a powerful marketing asset that authentically reflects your business. Embrace uniqueness, elevate user experience, and seize control of your success with our professional product design services.</p>
+          </div>
+          <div class="design-impact__img-container"><img src="images/span-5.png" loading="lazy" alt="woman holding iphone 14 pro" class="design-impact__img"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section is--mobile">
+    <div class="section__content is--black">
+      <h2 class="heading-large is--smaller">Discover the impact  of design</h2>
+      <div class="mobile-card">
+        <div id="w-node-_4ff55a99-8f7a-765a-54f7-189bcb22e453-1f04286c" class="mobile-card__item is--no-pb">
+          <div class="mobile-card__info"><img src="images/Frame-2147223244-1.png" loading="lazy" alt="a man hand grabbing the white paper" class="mobile-card__img is--mobile"><img src="images/Frame-2147223128-16.png" loading="lazy" sizes="100vw" srcset="images/Frame-2147223128-16-p-500.png 500w, images/Frame-2147223128-16-p-800.png 800w, images/Frame-2147223128-16-p-1080.png 1080w, images/Frame-2147223128-16.png 1240w" alt="two women discussing about the mobile app design" class="mobile-card__img is--desktop">
+            <h3 class="mobile-card__title">Creative Process To Identify Solution</h3>
+            <p class="mobile-card__desc">Ignite your path to success with our proven process for designing, building, and launching impactful mobile apps and websites. Progress assured through meticulous attention to detail &amp; customer understanding.</p>
+          </div>
+        </div>
+        <div id="w-node-_4ff55a99-8f7a-765a-54f7-189bcb22e45e-1f04286c" class="mobile-card__item is--no-pb">
+          <div class="mobile-card__info"><img src="images/Frame-2147223244-3.png" loading="lazy" alt="a man checking the mobile app design" class="mobile-card__img is--mobile"><img src="images/Frame-2147223125-9.png" loading="lazy" sizes="100vw" srcset="images/Frame-2147223125-9-p-500.png 500w, images/Frame-2147223125-9-p-800.png 800w, images/Frame-2147223125-9-p-1080.png 1080w, images/Frame-2147223125-9.png 1240w" alt="a developer team developing together" class="mobile-card__img is--desktop">
+            <h3 class="mobile-card__title">User-Centered Experience Design</h3>
+            <p class="mobile-card__desc">Ignite your path to success with our proven process for designing, building, and launching impactful mobile apps and websites. Progress assured through meticulous attention to detail &amp; customer understanding.</p>
+          </div>
+        </div>
+        <div id="w-node-_4ff55a99-8f7a-765a-54f7-189bcb22e469-1f04286c" class="mobile-card__item is--no-pb">
+          <div class="mobile-card__info"><img src="images/Frame-2147223244-2.png" loading="lazy" alt="woman hand grabbing mobile while opening uber doctor app" class="mobile-card__img is--mobile"><img src="images/Frame-2147223125-10.png" loading="lazy" sizes="100vw" srcset="images/Frame-2147223125-10-p-500.png 500w, images/Frame-2147223125-10-p-800.png 800w, images/Frame-2147223125-10-p-1080.png 1080w, images/Frame-2147223125-10.png 1240w" alt="a man with glasses smiling while developing app" class="mobile-card__img is--desktop">
+            <h3 class="mobile-card__title">Create Custom Mobile &amp; Web Design</h3>
+            <p class="mobile-card__desc">Transform your app or website into a powerful marketing asset that authentically reflects your business. Embrace uniqueness, elevate user experience, and seize control of your success with our professional product design services.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section__content is--abstract-gradient-blue-bg">
+      <div class="p-44-center is--30-mb">Unlock potential with a Dedicated Team model. Partner with us for a client-centric engineering team, aligned goals, and seamless collaboration.</div>
+      <a href="#free-consultation" class="primary-btn w-button">Start Your Project</a>
+    </div>
+  </section>
+  <section class="section is--min-mt">
+    <div class="section__content is--normal-bordered">
+      <h2 class="heading-large">Explore our project portfolio</h2>
+      <div class="product-slider">
+        <div class="product-slider__list is--horizontal">
+          <div class="product-card"><img alt="" loading="lazy" src="images/portfolio-frame-1.png" class="product-card__bg">
+            <div class="product-card__content-col">
+              <div class="gradient-blue">
+                <h3 class="product-card__title">Jumlaty</h3>
+              </div>
+              <p class="product-card__desc">Witness the remarkable journey of the Jumlaty team as we propelled them from ground 0 to a staggering 100,000 successful orders delivered.</p>
+              <a href="case-study-jumlaty.html" class="primary-btn is--small w-button">View Case Study</a>
+            </div>
+            <div class="product-card__img-col"><img loading="lazy" src="images/iPhone-14.png" alt="Jumlaty app screen shoot" class="product-card__img"></div>
+          </div>
+          <div class="product-card"><img alt="" loading="lazy" src="images/portfolio-frame-1.png" class="product-card__bg">
+            <div class="product-card__content-col">
+              <div class="gradient-yellow-pink">
+                <h3 class="product-card__title">Khaleeji</h3>
+              </div>
+              <p class="product-card__desc">We took khaleeji team&#x27;s crypto social network idea to market within 2 months to fulfil their promised roadmap milestone to their NFT buyers &amp; community</p>
+              <a href="case-study-khaleeji.html" class="primary-btn is--small w-button">View Case Study</a>
+            </div>
+            <div class="product-card__img-col"><img loading="lazy" src="images/iPhone-15.png" alt="Khaleeji app screen shoot" class="product-card__img"></div>
+          </div>
+          <div class="product-card"><img alt="" loading="lazy" src="images/portfolio-frame-1.png" class="product-card__bg">
+            <div class="product-card__content-col">
+              <div class="gradient-red">
+                <h3 class="product-card__title">Uber Doctor</h3>
+              </div>
+              <p class="product-card__desc">We partnered with 800Doctors in their digital transformation journey to become UAE&#x27;s first HIPPA compliant at-home healthcare platform.</p>
+              <a href="case-study-uber-doctor.html" class="primary-btn is--small w-button">View Case Study</a>
+            </div>
+            <div class="product-card__img-col"><img loading="lazy" src="images/iPhone-16.png" alt="Uber Doctor app screen shoot" class="product-card__img"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="free-consultation" class="consultation">
+    <div class="blue-yellow-gradient">
+      <h2 class="consultation__title">Let&#x27;s discuss your idea over a call</h2>
+    </div>
+    <div class="consultation__subtitle">Our team has worked with many founders, we&#x27;ll do our best to point you in the right direction.</div>
+    <div class="consultation__btn-list">
+      <div class="consultation__btn-item">
+        <a href="https://api.whatsapp.com/send/?phone=6281387472045&amp;text=Hi%20we%20need%20help%20regarding%20something" target="_blank" class="consultation__btn w-inline-block"><img src="images/message-square.png" loading="lazy" alt="" class="consultation__btn-img">
+          <div class="consultation__btn-text">Chat with us</div>
+        </a>
+      </div>
+      <div class="consultation__btn-item">
+        <a href="tel:+6281387472045" class="consultation__btn w-inline-block"><img src="images/phone.png" loading="lazy" alt="" class="consultation__btn-img">
+          <div class="consultation__btn-text">Call us</div>
+        </a>
+      </div>
+      <div class="consultation__btn-item">
+        <a href="mailto:rahul@10xers.co?subject=You&#x27;ve%20got%20email%20from%2010xers%20web" class="consultation__btn w-inline-block"><img src="images/mail.png" loading="lazy" alt="" class="consultation__btn-img">
+          <div class="consultation__btn-text">E-mail us</div>
+        </a>
+      </div>
+      <div class="consultation__btn-item">
+        <a href="https://calendly.com/rahul-10xers/chat" target="_blank" class="consultation__btn w-inline-block"><img src="images/calendar.png" loading="lazy" alt="" class="consultation__btn-img">
+          <div class="consultation__btn-text">Book a slot</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="subscribe__content">
+      <div class="subscribe__col">
+        <div class="purple-orange-gradient">
+          <h2 class="subscribe__title">Subscribe to get updates</h2>
+        </div>
+        <div class="subscribe__help-text">Stay up to date with the latest news, announcements, and articles.</div>
+      </div>
+      <div class="subscribe__form w-form">
+        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="subscirbe__form-bg" data-wf-page-id="64b767d5500e0f611f04286c" data-wf-element-id="869e06db-8249-3981-1fd7-9b31b645fd92"><input type="email" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Enter your email" id="subscribe-email"></form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__top-content">
+      <div class="footer-logo-container"><img src="images/Logo2x.png" loading="lazy" alt="10xers white logo" class="_10xers-logo-white is--footer">
+        <div class="purple-gradient">
+          <h2 class="footer-red-subtitle">We partner with founders to take their ideas from Zero → MVP → PMF → Scale Beyond.</h2>
+        </div>
+      </div>
+      <div class="footer-link-content">
+        <div class="link-container-mobile">
+          <h1 class="top-sub-header">Services</h1>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Product Management</a>
+            <a href="product-design.html" aria-current="page" class="footer-link w--current">Product Design</a>
+            <a href="product-development.html" class="footer-link">Product Development</a>
+            <a href="#" class="footer-link">Product Analytic &amp; Growth</a>
+          </div>
+        </div>
+        <div class="link-container-mobile">
+          <h1 class="top-sub-header">About us</h1>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Carriers</a>
+            <a href="#" class="footer-link">Press</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#free-consultation" class="footer-link">Let&#x27;s Connect</a>
+          </div>
+        </div>
+        <div class="link-container-mobile">
+          <h1 class="top-sub-header">Engagement Model</h1>
+          <div class="footer-link-container">
+            <a href="https://www.10xers.co?tab=engagement-mobile-1" class="footer-link">Your Dedicated  Product Team</a>
+            <a href="https://www.10xers.co?tab=engagement-mobile-2" class="footer-link">Managed Product Development</a>
+            <a href="https://www.10xers.co?tab=engagement-mobile-3" class="footer-link">Remotely Augmented  Team</a>
+          </div>
+        </div>
+        <div class="link-container-mobile">
+          <h1 class="top-sub-header">Projects</h1>
+          <div class="footer-link-container">
+            <a href="https://www.10xers.co/work?tab=4" class="footer-link">E - Commerce</a>
+            <a href="https://www.10xers.co/work?tab=5" class="footer-link">Web 3.0</a>
+            <a href="https://www.10xers.co/work?tab=2" class="footer-link">Marketplace</a>
+            <a href="https://www.10xers.co/work?tab=9" class="footer-link">SaaS Project</a>
+          </div>
+        </div>
+        <div class="link-container">
+          <h1 class="top-sub-header">Services</h1>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Product Management</a>
+            <a href="product-design.html" aria-current="page" class="footer-link w--current">Product Design</a>
+            <a href="product-development.html" class="footer-link">Product Development</a>
+            <a href="#" class="footer-link">Product Analytic &amp; Growth</a>
+          </div>
+        </div>
+        <div class="link-container">
+          <h1 class="top-sub-header">Engagement Model</h1>
+          <div class="footer-link-container">
+            <a href="https://www.10xers.co?tab=engagement-1" class="footer-link">Your Dedicated Product Team</a>
+            <link rel="prefetch" href="https://www.10xers.co?tab=engagement-1">
+            <a href="https://www.10xers.co?tab=engagement-2" class="footer-link">Managed Product Development</a>
+            <link rel="prefetch" href="https://www.10xers.co?tab=engagement-2">
+            <a href="https://www.10xers.co?tab=engagement-3" class="footer-link">Remotely Augmented Team</a>
+            <link rel="prefetch" href="https://www.10xers.co?tab=engagement-3">
+          </div>
+        </div>
+        <div class="link-container">
+          <h1 class="top-sub-header">Projects</h1>
+          <div class="footer-link-container">
+            <a href="https://www.10xers.co/work?tab=product-tab-retail" class="footer-link">E - Commerce</a>
+            <a href="https://www.10xers.co/work?tab=product-tab-blockchain" class="footer-link">Web 3.0</a>
+            <a href="https://www.10xers.co/work?tab=product-tab-marketplaces" class="footer-link">Marketplace</a>
+            <a href="https://www.10xers.co/work?tab=product-tab-saas" class="footer-link">SaaS Project</a>
+          </div>
+        </div>
+        <div id="w-node-_72ed5252-9d72-795b-4d33-5fa48c2a74e5-15b64efa" class="link-container">
+          <h1 class="top-sub-header">About us</h1>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Careers</a>
+            <a href="#" class="footer-link">Press</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#free-consultation" class="footer-link">Let&#x27;s Connect</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom-content">
+      <div class="coright-text-mobile">Copyright © 2023 10Xers Labs. All rights reserved.</div>
+      <div class="coright-text">Copyright © 2023 10Xers Labs. All rights reserved.</div>
+    </div>
+    <div class="webflow-badge"><img src="images/641b1b7ecd7716b8a9abd845_Badge-ProfessionalPartner-White.svg" loading="lazy" alt="" class="webflow-badge__img"></div>
+  </footer>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=627f57b87e9c38605d4677db" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script>
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    var left = $('#flowbaseSlider .w-slider-arrow-left');
+    var right = $('#flowbaseSlider .w-slider-arrow-right');
+    $('#flowbaseSlider')
+      .on('click', '.testimoni-slider__prev', function () {
+        left.trigger('tap');
+      })
+      .on('click', '.testimoni-slider__next', function () {
+        right.trigger('tap');
+      });
+  });
+</script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    /// product card slider ///
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    const slider = document.querySelector('.product-slider');
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+      slider.classList.remove('active');
+    });
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+      slider.classList.remove('active');
+    });
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3;
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  });
+</script>
+</body>
+</html>
